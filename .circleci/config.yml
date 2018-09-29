@@ -56,7 +56,7 @@ workflows:
   btd:
     jobs:
       - build:
-          context: account-context
+          context: frontend-context
       - deploy:
           requires:
             - build
